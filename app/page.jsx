@@ -1,11 +1,12 @@
-import { NavBar, SideBar } from '@/components'
+import { About, NavBar, SideBar } from '@/components'
 
 const HomePage = () => {
   return (
     <main className='font-poppins'>
       <SideBar />
-      <div class='main-content'>
+      <div className='main-content'>
         <NavBar />
+        <About />
       </div>
     </main>
   )
