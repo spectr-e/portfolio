@@ -1,24 +1,19 @@
 'use client'
 
-import { myAvatar } from '@/assets/styles/images'
+import { myAvatar, profile } from '@/assets/styles/images'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { FaDog } from 'react-icons/fa'
 import { PiXLogoBold } from 'react-icons/pi'
 
-const Sidebar = () => {
+const SideBar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <aside className={`sidebar ${toggle ? 'active' : null}`}>
       <div className='sidebar-info'>
         <figure className='avatar-box'>
-          <Image
-            src={myAvatar}
-            alt='Josiah Nganga'
-            priority={true}
-            width={80}
-          />
+          <Image src={profile} alt='Josiah Nganga' priority={true} width={80} />
         </figure>
 
         <div className='info-content'>
@@ -128,4 +123,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default SideBar

@@ -30,9 +30,10 @@ import iconDesign from './icon-design.svg'
 import iconDev from './icon-dev.svg'
 import iconPhoto from './icon-photo.svg'
 import iconQuote from './icon-quote.svg'
-
+import profile from './profile.png'
 export {
   myAvatar,
+  profile,
   avatar1,
   avatar2,
   avatar3,

@@ -1,9 +1,12 @@
-import { Sidebar } from '@/components'
+import { NavBar, SideBar } from '@/components'
 
 const HomePage = () => {
   return (
     <main className='font-poppins'>
-      <Sidebar />
+      <SideBar />
+      <div class='main-content'>
+        <NavBar />
+      </div>
     </main>
   )
 }
