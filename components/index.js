@@ -8,10 +8,10 @@ import Experiences from './Experiences'
 import Education from './Education'
 import Skills from './Skills'
 import FilterItem from './FilterItem'
-import SideBar from './SideBar'
+import SideNav from './SideNav.jsx'
 
 export {
-  SideBar,
+  SideNav,
   FilterItem,
   Clients,
   Experiences,

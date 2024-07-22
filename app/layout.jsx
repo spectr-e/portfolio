@@ -1,6 +1,6 @@
 import { poppins } from '@/utils/fonts'
 import '@/assets/styles/globals.css'
-import { NavBar, SideBar } from '@/components'
+import { NavBar, SideNav } from '@/components'
 
 export const metadata = {
   title: 'Josiah Nganga | Web Developer',
@@ -24,7 +24,7 @@ const MainLayout = ({ children }) => {
       </head>
       <body className={`${poppins}`} suppressHydrationWarning={true}>
         <main className='font-poppins'>
-          <SideBar />
+          <SideNav />
           <div className='main-content'>
             <NavBar />
             {children}

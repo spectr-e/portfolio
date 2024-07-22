@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { FaDog } from 'react-icons/fa'
 import { PiXLogoBold } from 'react-icons/pi'
 
-const SideBar = () => {
+const SideNav = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <aside className={`sidebar ${toggle ? 'active' : null}`}>
@@ -220,4 +220,4 @@ const SideBar = () => {
   )
 }
 
-export default SideBar
+export default SideNav
