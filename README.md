@@ -8,7 +8,7 @@
   Built with <a href="https://www.nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://www.vercel.app/" target="_blank">Vercel</a>
 </p>
 
-![demo]([https://raw.githubusercontent.com/spectr-e/portfolio/main/public/images/projects/portfolio.png])
+![demo](https://raw.githubusercontent.com/spectr-e/portfolio/main/public/images/projects/portfolio.png)
 
 ## 🚨 Forking this repo (please read!)
 
