@@ -5,4 +5,18 @@ import Testimonials from './Testimonials'
 import Clients from './Clients'
 import Testimonial from './Testimonial'
 import Services from './Services'
-export { Clients, Testimonial, SideBar, Testimonials, NavBar, About, Services }
+import Experiences from './Experiences'
+import Education from './Education'
+import Skills from './Skills'
+export {
+  Clients,
+  Experiences,
+  Education,
+  Skills,
+  Testimonial,
+  SideBar,
+  Testimonials,
+  NavBar,
+  About,
+  Services,
+}
