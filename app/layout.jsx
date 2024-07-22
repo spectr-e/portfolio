@@ -12,7 +12,7 @@ export const metadata = {
 
 const MainLayout = ({ children }) => {
   return (
-    <html lang='en'>
+    <html lang='en' suppressHydrationWarning={true}>
       <head>
         <script
           type='module'
@@ -23,7 +23,7 @@ const MainLayout = ({ children }) => {
           src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'
         ></script>
       </head>
-      <body className={`${poppins}`}>
+      <body className={`${poppins}`} suppressHydrationWarning={true}>
         <main className='font-poppins'>
           <SideBar />
           <div className='main-content'>
