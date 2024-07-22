@@ -1,9 +1,7 @@
-import React from 'react'
-
 const ResumePage = () => {
   return (
-    <article className='resume' data-page='resume'>
-      {/* <header>
+    <article className='resume active' data-page='resume'>
+      <header>
         <h2 className='h2 article-title'>Resume</h2>
       </header>
 
@@ -112,7 +110,10 @@ const ResumePage = () => {
             </div>
 
             <div className='skill-progress-bg'>
-              <div className='skill-progress-fill' style='width: 80%'></div>
+              <div
+                className='skill-progress-fill'
+                style={{ width: '80%' }}
+              ></div>
             </div>
           </li>
 
@@ -123,7 +124,10 @@ const ResumePage = () => {
             </div>
 
             <div className='skill-progress-bg'>
-              <div className='skill-progress-fill' style='width: 70%'></div>
+              <div
+                className='skill-progress-fill'
+                style={{ width: '70%' }}
+              ></div>
             </div>
           </li>
 
@@ -134,7 +138,10 @@ const ResumePage = () => {
             </div>
 
             <div className='skill-progress-bg'>
-              <div className='skill-progress-fill' style='width: 90%'></div>
+              <div
+                className='skill-progress-fill'
+                style={{ width: '90%' }}
+              ></div>
             </div>
           </li>
 
@@ -145,12 +152,14 @@ const ResumePage = () => {
             </div>
 
             <div className='skill-progress-bg'>
-              <div className='skill-progress-fill' style='width: 50%'></div>
+              <div
+                className='skill-progress-fill'
+                style={{ width: '50%' }}
+              ></div>
             </div>
           </li>
         </ul>
-      </section> */}
-      Rowkasd
+      </section>
     </article>
   )
 }

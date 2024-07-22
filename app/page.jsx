@@ -1,4 +1,4 @@
-import { About, NavBar, SideBar } from '@/components'
+import { About } from '@/components'
 
 const HomePage = () => {
   return <About />
