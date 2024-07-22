@@ -1,4 +1,5 @@
 import SideBar from './SideBar'
 import NavBar from './NavBar'
 import About from './About'
-export { SideBar, NavBar, About }
+import Testimonials from './Testimonials'
+export { SideBar, Testimonials, NavBar, About }

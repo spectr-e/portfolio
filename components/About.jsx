@@ -1,13 +1,4 @@
 import {
-  avatar1,
-  avatar2,
-  avatar3,
-  avatar4,
-  iconApp,
-  iconDesign,
-  iconDev,
-  iconPhoto,
-  iconQuote,
   logo1,
   logo2,
   logo3,
@@ -17,7 +8,7 @@ import {
 } from '@/assets/styles/images'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { Testimonials } from '.'
 
 const About = () => {
   return (
@@ -28,18 +19,15 @@ const About = () => {
 
       <section className='about-text'>
         <p>
-          I'm Creative Director and UI/UX Designer from Sydney, Australia,
-          working in web development and print media. I enjoy turning complex
-          problems into simple, beautiful and intuitive designs.
+          Hello, I'm Software Engineer from Nairobi, Kenya, working in web
+          development and system design. I enjoy turning complex problems into
+          simple, beautiful and intuitive designs.
         </p>
 
         <p>
-          My job is to build your website so that it is functional and
-          user-friendly but at the same time attractive. Moreover, I add
-          personal touch to your product and make sure that is eye-catching and
-          easy to use. My aim is to bring across your message and identity in
-          the most creative way. I created web design for many famous brand
-          companies.
+          My main focus these days is building accessible, inclusive products
+          and digital experiences for you. I aim to bring across your message
+          and identity in the most creative way.
         </p>
       </section>
 
@@ -51,7 +39,13 @@ const About = () => {
         <ul className='service-list'>
           <li className='service-item'>
             <div className='service-icon-box'>
-              <Image src={iconDesign} alt='design icon' width='40' />
+              <ion-icon
+                name='create-outline'
+                style={{
+                  color: 'var(--orange-yellow-crayola)',
+                  fontSize: '36px',
+                }}
+              ></ion-icon>
             </div>
 
             <div className='service-content-box'>
@@ -66,35 +60,54 @@ const About = () => {
 
           <li className='service-item'>
             <div className='service-icon-box'>
-              <Image src={iconDev} alt='Web development icon' width='40' />
+              <ion-icon
+                name='construct-outline'
+                style={{
+                  color: 'var(--orange-yellow-crayola)',
+                  fontSize: '36px',
+                }}
+              ></ion-icon>
             </div>
 
             <div className='service-content-box'>
-              <h4 className='h4 service-item-title'>Web development</h4>
+              <h4 className='h4 service-item-title'>Frontend Development</h4>
 
               <p className='service-item-text'>
-                High-quality development of sites at the professional level.
+                Crafting beautiful sites using React.js and Next.js.
               </p>
             </div>
           </li>
 
           <li className='service-item'>
             <div className='service-icon-box'>
-              <Image src={iconApp} alt='mobile app icon' width='40' />
+              <ion-icon
+                name='cog-outline'
+                style={{
+                  color: 'var(--orange-yellow-crayola)',
+                  fontSize: '36px',
+                }}
+              ></ion-icon>
             </div>
 
             <div className='service-content-box'>
-              <h4 className='h4 service-item-title'>Mobile apps</h4>
+              <h4 className='h4 service-item-title'>Backend Development</h4>
 
               <p className='service-item-text'>
-                Professional development of applications for iOS and Android.
+                Feature-rich applications using Node.js with Express and Ruby on
+                Rails.
               </p>
             </div>
           </li>
 
           <li className='service-item'>
             <div className='service-icon-box'>
-              <Image src={iconPhoto} alt='camera icon' width='40' />
+              <ion-icon
+                name='camera-outline'
+                style={{
+                  color: 'var(--orange-yellow-crayola)',
+                  fontSize: '36px',
+                }}
+              ></ion-icon>
             </div>
 
             <div className='service-content-box'>
@@ -111,178 +124,7 @@ const About = () => {
 
       {/* - testimonials */}
 
-      <section className='testimonials'>
-        <h3 className='h3 testimonials-title'>Testimonials</h3>
-
-        <ul className='testimonials-list has-scrollbar'>
-          <li className='testimonials-item'>
-            <div className='content-card' data-testimonials-item>
-              <figure className='testimonials-avatar-box'>
-                <Image
-                  src={avatar1}
-                  alt='Daniel lewis'
-                  width='60'
-                  data-testimonials-avatar
-                />
-              </figure>
-
-              <h4
-                className='h4 testimonials-item-title'
-                data-testimonials-title
-              >
-                Daniel lewis
-              </h4>
-
-              <div className='testimonials-text' data-testimonials-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very
-                  pleased with the work done. She has a lot of experience and is
-                  very concerned about the needs of client. Lorem ipsum dolor
-                  sit amet, ullamcous cididt consectetur adipiscing elit, seds
-                  do et eiusmod tempor incididunt ut laborels dolore magnarels
-                  alia.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li className='testimonials-item'>
-            <div className='content-card' data-testimonials-item>
-              <figure className='testimonials-avatar-box'>
-                <Image
-                  src={avatar2}
-                  alt='Jessica miller'
-                  width='60'
-                  data-testimonials-avatar
-                />
-              </figure>
-
-              <h4
-                className='h4 testimonials-item-title'
-                data-testimonials-title
-              >
-                Jessica miller
-              </h4>
-
-              <div className='testimonials-text' data-testimonials-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very
-                  pleased with the work done. She has a lot of experience and is
-                  very concerned about the needs of client. Lorem ipsum dolor
-                  sit amet, ullamcous cididt consectetur adipiscing elit, seds
-                  do et eiusmod tempor incididunt ut laborels dolore magnarels
-                  alia.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li className='testimonials-item'>
-            <div className='content-card' data-testimonials-item>
-              <figure className='testimonials-avatar-box'>
-                <Image
-                  src={avatar3}
-                  alt='Emily evans'
-                  width='60'
-                  data-testimonials-avatar
-                />
-              </figure>
-
-              <h4
-                className='h4 testimonials-item-title'
-                data-testimonials-title
-              >
-                Emily evans
-              </h4>
-
-              <div className='testimonials-text' data-testimonials-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very
-                  pleased with the work done. She has a lot of experience and is
-                  very concerned about the needs of client. Lorem ipsum dolor
-                  sit amet, ullamcous cididt consectetur adipiscing elit, seds
-                  do et eiusmod tempor incididunt ut laborels dolore magnarels
-                  alia.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li className='testimonials-item'>
-            <div className='content-card' data-testimonials-item>
-              <figure className='testimonials-avatar-box'>
-                <Image
-                  src={avatar4}
-                  alt='Henry william'
-                  width='60'
-                  data-testimonials-avatar
-                />
-              </figure>
-
-              <h4
-                className='h4 testimonials-item-title'
-                data-testimonials-title
-              >
-                Henry william
-              </h4>
-
-              <div className='testimonials-text' data-testimonials-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very
-                  pleased with the work done. She has a lot of experience and is
-                  very concerned about the needs of client. Lorem ipsum dolor
-                  sit amet, ullamcous cididt consectetur adipiscing elit, seds
-                  do et eiusmod tempor incididunt ut laborels dolore magnarels
-                  alia.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      {/* - testimonials modal */}
-
-      <div className='modal-container' data-modal-container>
-        <div className='overlay' data-overlay></div>
-
-        <section className='testimonials-modal'>
-          <button className='modal-close-btn' data-modal-close-btn>
-            <ion-icon name='close-outline'></ion-icon>
-          </button>
-
-          <div className='modal-img-wrapper'>
-            <figure className='modal-avatar-box'>
-              <Image
-                src={avatar1}
-                alt='Daniel lewis'
-                width='80'
-                data-modal-img
-              />
-            </figure>
-
-            <Image src={iconQuote} alt='quote icon' />
-          </div>
-
-          <div className='modal-content'>
-            <h4 className='h3 modal-title' data-modal-title>
-              Daniel lewis
-            </h4>
-
-            <time dateTime='2021-06-14'>14 June, 2021</time>
-
-            <div data-modal-text>
-              <p>
-                Richard was hired to create a corporate identity. We were very
-                pleased with the work done. She has a lot of experience and is
-                very concerned about the needs of client. Lorem ipsum dolor sit
-                amet, ullamcous cididt consectetur adipiscing elit, seds do et
-                eiusmod tempor incididunt ut laborels dolore magnarels alia.
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
+      <Testimonials />
 
       {/* - clients */}
 
