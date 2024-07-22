@@ -1,35 +1,37 @@
+import Link from 'next/link'
+
 const NavBar = () => {
   return (
     <nav className='navbar'>
       <ul className='navbar-list'>
         <li className='navbar-item'>
-          <button className='navbar-link active' data-nav-link>
+          <Link href={'/'} className='navbar-link active' data-nav-link>
             About
-          </button>
+          </Link>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link' data-nav-link>
+          <Link href={'/resume'} className='navbar-link' data-nav-link>
             Resume
-          </button>
+          </Link>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link' data-nav-link>
+          <Link href={'/portfolio'} className='navbar-link' data-nav-link>
             Portfolio
-          </button>
+          </Link>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link' data-nav-link>
+          <Link href={'/blog'} className='navbar-link' data-nav-link>
             Blog
-          </button>
+          </Link>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link' data-nav-link>
+          <Link href={'/contact'} className='navbar-link' data-nav-link>
             Contact
-          </button>
+          </Link>
         </li>
       </ul>
     </nav>

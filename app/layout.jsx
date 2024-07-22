@@ -1,5 +1,6 @@
 import { poppins } from '@/utils/fonts'
 import '@/assets/styles/globals.css'
+import { NavBar, SideBar } from '@/components'
 
 export const metadata = {
   title: 'Josiah Nganga | Web Developer',
@@ -21,7 +22,15 @@ const MainLayout = ({ children }) => {
           src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'
         ></script>
       </head>
-      <body className={`${poppins}`}>{children}</body>
+      <body className={`${poppins}`}>
+        <main className='font-poppins'>
+          <SideBar />
+          <div className='main-content'>
+            <NavBar />
+            {children}
+          </div>
+        </main>
+      </body>
     </html>
   )
 }
