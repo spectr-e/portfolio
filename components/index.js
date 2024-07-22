@@ -8,7 +8,9 @@ import Services from './Services'
 import Experiences from './Experiences'
 import Education from './Education'
 import Skills from './Skills'
+import FilterItem from './FilterItem'
 export {
+  FilterItem,
   Clients,
   Experiences,
   Education,
