@@ -1,10 +1,4 @@
-import {
-  avatar1,
-  avatar2,
-  avatar3,
-  avatar4,
-  iconQuote,
-} from '@/assets/styles/images'
+import { avatar1, avatar2, avatar3, avatar4, iconQuote } from '@/assets/images'
 import Image from 'next/image'
 import Testimonial from './Testimonial'
 

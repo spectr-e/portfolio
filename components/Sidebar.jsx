@@ -1,6 +1,6 @@
 'use client'
 
-import { myAvatar, profile } from '@/assets/styles/images'
+import { myAvatar, profile } from '@/assets/images'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'

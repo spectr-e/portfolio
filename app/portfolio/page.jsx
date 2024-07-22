@@ -8,7 +8,7 @@ import {
   project7,
   project8,
   project9,
-} from '@/assets/styles/images'
+} from '@/assets/images'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -71,93 +71,13 @@ const PortfolioPage = () => {
         </div>
 
         <ul className='project-list'>
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='web development'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project1}
-                  alt='finance'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>Finance</h3>
-
-              <p className='project-category'>Web development</p>
-            </Link>
-          </li>
-
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='web development'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project2}
-                  alt='orizon'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>Orizon</h3>
-
-              <p className='project-category'>Web development</p>
-            </Link>
-          </li>
-
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='web design'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project3}
-                  alt='fundo'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>Fundo</h3>
-
-              <p className='project-category'>Web design</p>
-            </Link>
-          </li>
-
+          {/* movers app */}
           <li
             className='project-item active'
             data-filter-item
             data-category='applications'
           >
-            <Link href='#'>
+            <Link href='https://github.com/spectr-e/movers-ui' target='_blank'>
               <figure className='project-img'>
                 <div className='project-item-icon-box'>
                   <ion-icon name='eye-outline'></ion-icon>
@@ -173,126 +93,19 @@ const PortfolioPage = () => {
                 />
               </figure>
 
-              <h3 className='project-title'>Brawlhalla</h3>
-
-              <p className='project-category'>Applications</p>
-            </Link>
-          </li>
-
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='web design'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project5}
-                  alt='dsm.'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>DSM.</h3>
-
-              <p className='project-category'>Web design</p>
-            </Link>
-          </li>
-
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='web design'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project6}
-                  alt='metaspark'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>MetaSpark</h3>
-
-              <p className='project-category'>Web design</p>
-            </Link>
-          </li>
-
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='web development'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project7}
-                  alt='summary'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>Summary</h3>
+              <h3 className='project-title'>Movers</h3>
 
               <p className='project-category'>Web development</p>
             </Link>
           </li>
 
-          <li
-            className='project-item active'
-            data-filter-item
-            data-category='applications'
-          >
-            <Link href='#'>
-              <figure className='project-img'>
-                <div className='project-item-icon-box'>
-                  <ion-icon name='eye-outline'></ion-icon>
-                </div>
-
-                <Image
-                  sizes='100vh'
-                  width={0}
-                  height={0}
-                  src={project8}
-                  alt='task manager'
-                  loading='lazy'
-                />
-              </figure>
-
-              <h3 className='project-title'>Task Manager</h3>
-
-              <p className='project-category'>Applications</p>
-            </Link>
-          </li>
-
+          {/* kodisha app */}
           <li
             className='project-item active'
             data-filter-item
             data-category='web development'
           >
-            <Link href='#'>
+            <Link href='https://github.com/spectr-e/kodisha' target='_blank'>
               <figure className='project-img'>
                 <div className='project-item-icon-box'>
                   <ion-icon name='eye-outline'></ion-icon>
@@ -302,13 +115,69 @@ const PortfolioPage = () => {
                   sizes='100vh'
                   width={0}
                   height={0}
-                  src={project9}
-                  alt='arrival'
+                  src={project1}
+                  alt='finance'
                   loading='lazy'
                 />
               </figure>
 
-              <h3 className='project-title'>Arrival</h3>
+              <h3 className='project-title'>Kodisha</h3>
+
+              <p className='project-category'>Applications</p>
+            </Link>
+          </li>
+
+          {/* bankers app */}
+          <li
+            className='project-item active'
+            data-filter-item
+            data-category='web design'
+          >
+            <Link href='https://github.com/spectr-e/bank-app' target='_blank'>
+              <figure className='project-img'>
+                <div className='project-item-icon-box'>
+                  <ion-icon name='eye-outline'></ion-icon>
+                </div>
+
+                <Image
+                  sizes='100vh'
+                  width={0}
+                  height={0}
+                  src={project3}
+                  alt='fundo'
+                  loading='lazy'
+                />
+              </figure>
+
+              <h3 className='project-title'>Bank App</h3>
+
+              <p className='project-category'>Web design</p>
+            </Link>
+          </li>
+
+          {/* portfolio app */}
+          <li
+            className='project-item active'
+            data-filter-item
+            data-category='web development'
+          >
+            <Link href='https://github.com/spectr-e/portfolio' target='_blank'>
+              <figure className='project-img'>
+                <div className='project-item-icon-box'>
+                  <ion-icon name='eye-outline'></ion-icon>
+                </div>
+
+                <Image
+                  sizes='100vh'
+                  width={0}
+                  height={0}
+                  src={project2}
+                  alt='orizon'
+                  loading='lazy'
+                />
+              </figure>
+
+              <h3 className='project-title'>Portfolio</h3>
 
               <p className='project-category'>Web development</p>
             </Link>
