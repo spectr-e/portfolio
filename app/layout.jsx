@@ -1,7 +1,6 @@
 import { poppins } from '@/utils/fonts'
 import '@/assets/styles/globals.css'
-import { NavBar } from '@/components'
-import SideBar from '@/components/SideBar'
+import { NavBar, SideBar } from '@/components'
 
 export const metadata = {
   title: 'Josiah Nganga | Web Developer',
