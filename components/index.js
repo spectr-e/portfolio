@@ -1,4 +1,3 @@
-import SideBar from './SideBar.jsx'
 import NavBar from './NavBar'
 import About from './About'
 import Testimonials from './Testimonials'
@@ -17,7 +16,6 @@ export {
   Education,
   Skills,
   Testimonial,
-  SideBar,
   Testimonials,
   NavBar,
   About,
