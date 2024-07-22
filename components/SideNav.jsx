@@ -177,6 +177,7 @@ const SideNav = () => {
           <li className='social-item'>
             <Link
               href='https://linkedin.com/in/kamaujosia'
+              target='_blank'
               className='social-link'
             >
               <svg
@@ -194,13 +195,21 @@ const SideNav = () => {
           </li>
 
           <li className='social-item'>
-            <Link href='https://x.com/kamaujosia' className='social-link'>
+            <Link
+              href='https://x.com/kamaujosia'
+              target='_blank'
+              className='social-link'
+            >
               <PiXLogoBold />
             </Link>
           </li>
 
           <li className='social-item'>
-            <Link href='https://medium.com/kamaujosia' className='social-link'>
+            <Link
+              target='_blank'
+              href='https://medium.com/@kamaujosia'
+              className='social-link'
+            >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='1em'
