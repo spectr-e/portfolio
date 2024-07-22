@@ -1,6 +1,6 @@
-// <div align="center">
-//  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-// </div>
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/spectr-e/portfolio/main/app/favicon.ico" width="100" />
+</div>
 <h1 align="center">
   Josiah Kamau
 </h1>
