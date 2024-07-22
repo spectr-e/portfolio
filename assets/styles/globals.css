@@ -576,8 +576,9 @@ main {
   margin-bottom: 10px;
 }
 
-.service-icon-box img {
+.service-icon-box svg {
   margin: auto;
+  font-size: 20px;
 }
 
 .service-content-box {
