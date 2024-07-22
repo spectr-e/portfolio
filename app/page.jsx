@@ -1,5 +1,7 @@
 import { About, Services } from '@/components'
 
+export const dynamic = 'force-dynamic'
+
 const HomePage = () => {
   return (
     // start here

@@ -1,4 +1,4 @@
-import SideBar from './SideBar'
+import SideBar from './SideBar.jsx'
 import NavBar from './NavBar'
 import About from './About'
 import Testimonials from './Testimonials'
