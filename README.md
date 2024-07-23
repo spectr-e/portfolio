@@ -33,5 +33,5 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [jo
 2. Start the development server
 
    ```sh
-   npm start
+   npm run dev
    ```
