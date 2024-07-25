@@ -54,19 +54,19 @@ My main focus these days is building accessible, inclusive products and digital 
 
 ### [Kodisha](https://github.com/spectr-e/kodisha)
 
-• Developed a scalable property management platform with Next.js, Cloudinary, and MongoDB.
-• Implemented user authentication and authorization using Next-Auth (Google Provider).
-• Designed a responsive user interface with Tailwind and Custom CSS.
+- Developed a scalable property management platform with Next.js, Cloudinary, and MongoDB.
+- Implemented user authentication and authorization using Next-Auth (Google Provider).
+- Designed a responsive user interface with Tailwind and Custom CSS.
 
 ### [Movers](https://github.com/spectr-e/movers-ui)
 
-• Developed and built the application using React.js as the frontend tech-stack and Ruby on Rails as the backend tech-stack.
-• Implemented user authentication and authorization using JWT.
-• Designed a responsive user interface with Tailwind and Custom CSS.
+- Developed and built the application using React.js as the frontend tech-stack and Ruby on Rails as the backend tech-stack.
+- Implemented user authentication and authorization using JWT.
+- Designed a responsive user interface with Tailwind and Custom CSS.
 
 ### [Bank App](https://github.com/spectr-e/bank-app)
 
-• A landing page built using Next.js and styled with Tailwind CC that displays information for a credit card bank app.
+- A landing page built using Next.js and styled with Tailwind CC that displays information for a credit card bank app.
 
 ## Contact
 
