@@ -31,8 +31,10 @@ import iconDev from './icon-dev.svg'
 import iconPhoto from './icon-photo.svg'
 import iconQuote from './icon-quote.svg'
 import profile from './profile.png'
+import html from './html.png'
 export {
   myAvatar,
+  html,
   profile,
   avatar1,
   avatar2,

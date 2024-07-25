@@ -597,6 +597,60 @@ main {
 }
 
 /**
+ * #stack 
+ */
+
+.stack {
+  margin-bottom: 35px;
+}
+
+.stack-title {
+  margin-bottom: 20px;
+}
+
+.stack-item {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.stack-item::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.stack-icon-box {
+  margin-bottom: 10px;
+}
+
+.stack-icon-box img {
+  margin: auto;
+  font-size: 20px;
+}
+
+.stack-content-box {
+  text-align: center;
+}
+
+.stack-item-title {
+  margin-bottom: 7px;
+}
+
+.stack-item-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
+  line-height: 1.6;
+}
+
+/**
  * #testimonials 
  */
 
@@ -1522,6 +1576,24 @@ textarea.form-input::-webkit-resizer {
   .service-content-box {
     text-align: left;
   }
+  /* stack */
+
+  .stack-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    /* padding: 30px; */
+  }
+
+  .stack-icon-box {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  /* .stack-content-box {
+    text-align: left;
+  } */
 
   /* testimonials */
 

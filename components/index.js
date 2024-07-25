@@ -9,8 +9,10 @@ import Education from './Education'
 import Skills from './Skills'
 import FilterItem from './FilterItem'
 import SideNav from './SideNav.jsx'
+import Stack from './Stack'
 
 export {
+  Stack,
   SideNav,
   FilterItem,
   Clients,
