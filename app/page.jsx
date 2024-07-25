@@ -1,4 +1,4 @@
-import { About, Services, Stack } from '@/components'
+import { About, Services, Stacks } from '@/components'
 
 export const dynamic = 'force-dynamic'
 
@@ -8,7 +8,7 @@ const HomePage = () => {
     <article className='about active' data-page='about'>
       <About />
       <Services />
-      <Stack />
+      <Stacks />
     </article>
   )
 }

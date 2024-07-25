@@ -576,7 +576,7 @@ main {
   margin-bottom: 10px;
 }
 
-.service-icon-box svg {
+.service-icon-box Image img {
   margin: auto;
   font-size: 20px;
 }
@@ -630,7 +630,7 @@ main {
   margin-bottom: 10px;
 }
 
-.stack-icon-box img {
+.stack-icon-box Image {
   margin: auto;
   font-size: 20px;
 }
@@ -1564,7 +1564,7 @@ textarea.form-input::-webkit-resizer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 18px;
+    gap: 24px;
     padding: 30px;
   }
 
