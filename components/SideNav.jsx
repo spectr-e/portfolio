@@ -7,7 +7,7 @@ import { FaDog, FaGithub } from 'react-icons/fa'
 import { PiXLogoBold } from 'react-icons/pi'
 
 const SideNav = () => {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(true)
   return (
     <aside className={`sidebar ${toggle ? 'active' : null}`}>
       <div className='sidebar-info'>
