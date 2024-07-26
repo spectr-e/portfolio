@@ -4,7 +4,7 @@ const Service = ({ service }) => {
   const { title, url, description } = service
   return (
     <li className='service-item'>
-      <div className='service-icon-box'>
+      <div className='flex justify-center service-icon-box'>
         <Image
           width={40}
           className='max-w-[none]'
