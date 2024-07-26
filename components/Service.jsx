@@ -6,9 +6,9 @@ const Service = ({ service }) => {
     <li className='service-item'>
       <div className='service-icon-box'>
         <Image
-          width={60}
+          width={40}
           className='max-w-[none]'
-          height={60}
+          height={40}
           loading='lazy'
           src={url}
           alt={title}
