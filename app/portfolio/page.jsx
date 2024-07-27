@@ -2,21 +2,21 @@
 import { useRef, useState } from 'react'
 
 // assets
-import { data } from '@/assets/data/Projects'
+import { projects } from '@/public/data/projects'
 import Project from '@/components/Project'
 import { FilterItem } from '@/components'
 
 const PortfolioPage = () => {
   const [selected, setSelected] = useState('All')
-  const [filtered, setFiltered] = useState(data)
+  const [filtered, setFiltered] = useState(projects)
   const filterSelectRef = useRef(null)
 
   const filterItems = (category) => {
     setSelected(category)
     if (category === 'All') {
-      setFiltered(data)
+      setFiltered(projects)
     } else {
-      const newProjects = data.filter(
+      const newProjects = projects.filter(
         (project) => project.category === category
       )
       setFiltered(newProjects)
@@ -37,7 +37,7 @@ const PortfolioPage = () => {
   }
 
   return (
-    <article className='portfolio active' data-page='portfolio'>
+    <article className='portfolio active'>
       <header>
         <h2 className='h2 article-title'>Portfolio</h2>
       </header>
