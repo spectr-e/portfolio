@@ -1,5 +1,5 @@
 import { poppins } from '@/utils/fonts'
-import '@/assets/styles/globals.css'
+import '@/public/styles/globals.css'
 import { NavBar, SideNav } from '@/components'
 
 export const metadata = {

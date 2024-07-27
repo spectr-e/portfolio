@@ -1,4 +1,4 @@
-import { blog1, blog2, blog3, blog4, blog5, blog6 } from '@/assets/images'
+import { blog1, blog2, blog3, blog4, blog5, blog6 } from '@/public/images'
 import Image from 'next/image'
 import Link from 'next/link'
 

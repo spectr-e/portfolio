@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { logo1, logo2, logo3, logo4, logo5, logo6 } from '@/assets/images'
+import { logo1, logo2, logo3, logo4, logo5, logo6 } from '@/public/images'
 
 const Clients = () => {
   return (

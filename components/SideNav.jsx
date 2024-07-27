@@ -1,9 +1,9 @@
 'use client'
-import { profile } from '@/assets/images'
+import { profile } from '@/public/images'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import { FaDog, FaGithub } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { PiXLogoBold } from 'react-icons/pi'
 
 const SideNav = () => {
@@ -27,8 +27,7 @@ const SideNav = () => {
           className='info_more-btn'
           onClick={() => setToggle((prev) => !prev)}
         >
-          <span>Show Contacts</span>
-
+          <span>{toggle ? 'Hide' : 'Show'} Contacts</span>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1em'
