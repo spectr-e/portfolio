@@ -24,10 +24,4 @@ export const services = [
       'High-performance, cross-platform apps tailored to your business needs.',
     url: '/images/services/mobile.svg',
   },
-  {
-    id: 5,
-    title: 'Photography',
-    description: 'Capture your moments, products, and brand with one shot.',
-    url: '/images/services/photo.svg',
-  },
 ]
