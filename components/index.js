@@ -1,7 +1,6 @@
 import NavBar from './NavBar'
 import About from './About'
 import Testimonials from './Testimonials'
-import Clients from './Clients'
 import Testimonial from './Testimonial'
 import Services from './Services'
 import Experiences from './Experiences'
@@ -15,7 +14,6 @@ export {
   Stacks,
   SideNav,
   FilterItem,
-  Clients,
   Experiences,
   Education,
   Skills,
