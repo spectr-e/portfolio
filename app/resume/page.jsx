@@ -14,7 +14,7 @@ const ResumePage = () => {
       <Education />
 
       {/* skills */}
-      <Skills />
+      {/* <Skills /> */}
     </article>
   )
 }
