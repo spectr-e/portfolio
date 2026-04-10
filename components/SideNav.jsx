@@ -1,5 +1,5 @@
 "use client";
-import { profile } from "@/public/images";
+import { profile, profile_v2 } from "@/public/images";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -17,10 +17,10 @@ const SideNav = () => {
 
         <div className="info-content">
           <h1 className="name" title="Josiah Kamau">
-            Josiah Kamau
+            Josiah Nganga
           </h1>
 
-          <p className="title">Web developer</p>
+          <p className="title">JavaScript Dev · QA Engineer</p>
         </div>
 
         <button
@@ -198,7 +198,6 @@ const SideNav = () => {
             <Link
               target="_blank"
               href="https://linkedin.com/in/kamaujosia"
-              target="_blank"
               className="social-link"
             >
               <svg
@@ -219,7 +218,6 @@ const SideNav = () => {
             <Link
               target="_blank"
               href="https://x.com/kamaujosia"
-              target="_blank"
               className="social-link"
             >
               <PiXLogoBold />
@@ -228,7 +226,6 @@ const SideNav = () => {
 
           <li className="social-item">
             <Link
-              target="_blank"
               target="_blank"
               href="https://medium.com/@kamaujosia"
               className="social-link"

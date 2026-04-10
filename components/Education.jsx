@@ -15,7 +15,7 @@ const Education = () => {
             Bachelor of Commerce | University of Nairobi
           </h4>
 
-          <span className='text-sm mb-2'>2020 — 2024</span>
+          <span className='text-sm mb-2'>Sep 2020 — Sep 2026</span>
 
           <p className='timeline-text'>
             Emboldened in several disciplines including project management,
@@ -28,7 +28,7 @@ const Education = () => {
             Certificate in Software Engineering | Moringa School
           </h4>
 
-          <span className='text-sm mb-2'>2022 - 2023</span>
+          <span className='text-sm mb-2'>Nov 2022 — Jul 2023</span>
 
           <p className='timeline-text'>
             Partaken courses in frontend web development with React.js and

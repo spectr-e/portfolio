@@ -12,41 +12,47 @@ const Experiences = () => {
       <ol className='timeline-list'>
         <li className='timeline-item'>
           <h4 className='h4 timeline-item-title'>
-            Scrum Master | Moringa School
+            AI Technical Mentor | Moringa School
           </h4>
 
-          <span className='text-sm mb-2'>Mar 2023 — May 2023</span>
+          <span className='text-sm mb-2'>Jan 2026 — Present</span>
 
           <p className='timeline-text'>
-            Led a team of 6 developers to design, create and craft Movers App -
-            a software solution for people in need of moving services.
+            Instruct curriculum spanning AI fundamentals and cloud-based AI
+            systems, building technical knowledge across cohorts. Provide
+            structured mentorship to learners, delivering real-time feedback and
+            tracking individual progress against defined program outcomes.
           </p>
         </li>
 
         <li className='timeline-item'>
           <h4 className='h4 timeline-item-title'>
-            Design Lead | Iqiniqo Furniture
+            Software Developer | Silicon Savannah Solutions
           </h4>
 
-          <span className='text-sm mb-2'>Apr 2022 — Jul 2022</span>
+          <span className='text-sm mb-2'>Nov 2025 — Jan 2026</span>
 
           <p className='timeline-text'>
-            Designed and managed the digital social network that lead to
-            increase in turnover by 25%
+            Validated responsive layouts across device breakpoints and browsers
+            before each client delivery, catching UI defects early. Analysed
+            on-page SEO output and cross-checked rendered markup against Figma
+            specs to ensure design-to-code fidelity.
           </p>
         </li>
 
         <li className='timeline-item'>
           <h4 className='h4 timeline-item-title'>
-            Tech Support | Luxury Internet Providers
+            React Software Engineer | Esheria Ventures Ltd
           </h4>
 
-          <span className='text-sm mb-2'>Jan 2021 — Sep 2021</span>
+          <span className='text-sm mb-2'>Feb 2025 — Jun 2025</span>
 
           <p className='timeline-text'>
-            Designed a robust client support system for handling queries and
-            onboarding processes leading to an increase in client satisfaction
-            scores by 40%
+            Maintained rigorous test coverage throughout a large-scale codebase
+            refactor, achieving zero regressions after eliminating over 33,000
+            lines of deprecated code. Collaborated closely with the founding
+            team to translate product requirements into testable acceptance
+            criteria.
           </p>
         </li>
       </ol>

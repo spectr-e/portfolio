@@ -9,15 +9,20 @@ const About = () => {
 
       <section className='about-text'>
         <p>
-          Hello, I'm Software Engineer from Nairobi, Kenya, working in web
-          development and system design. I enjoy turning complex problems into
-          simple, beautiful and intuitive designs.
+          Hello, I&apos;m a JavaScript developer from Nairobi, Kenya, with
+          hands-on experience in frontend web development using React.js and
+          Next.js, and a focused interest in quality assurance for software
+          systems. I enjoy turning complex problems into simple, reliable and
+          well-tested solutions.
         </p>
 
         <p>
-          My main focus these days is building accessible, inclusive products
-          and digital experiences for you. I aim to bring across your message
-          and identity in the most creative way.
+          I bring working knowledge of Jest-based unit testing, browser
+          automation with Cypress, and manual testing discipline built across
+          production codebases. I&apos;m eager to apply this foundation in
+          QA-first environments, particularly in clean-tech sectors, where
+          software correctness directly affects safety and reliability. Open to
+          remote-first teams across Africa and globally.
         </p>
       </section>
     </>

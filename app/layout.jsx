@@ -3,10 +3,10 @@ import '@/public/styles/globals.css'
 import { NavBar, SideNav } from '@/components'
 
 export const metadata = {
-  title: 'Josiah Nganga | Web Developer',
-  description: 'A Showcase of My Portfolio',
+  title: 'Josiah Nganga | JavaScript Developer · QA Engineer',
+  description: 'JavaScript developer with hands-on experience in frontend web development with React.js/Next.js and a focused interest in quality assurance for software systems.',
   keywords:
-    'software developer in kenya, web developer in kenya, frontend developer in kenya , backend developer in kenya, developer in react.js, developer in next.js',
+    'javascript developer in kenya, qa engineer in kenya, frontend developer in kenya, react developer, next.js developer, quality assurance engineer, software tester, cypress testing, jest testing',
 }
 
 const MainLayout = ({ children }) => {
